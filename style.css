@@ -1,0 +1,457 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #252424;
+    color: white;
+    transition: 1s;
+}
+
+.clear{
+    clear: both;
+}
+
+.container-menu {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 63px;
+    margin-top: 30px;
+}
+
+.container-div {
+    width: 400px;
+    float: left;
+}
+
+.btn-container {
+    float: right;
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    background: none;
+    color: white;
+    font-weight: 600;
+    border: 2px solid rgb(197, 114, 6);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.h2-container {
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    letter-spacing: 0.4rem;
+    border-bottom: 1px solid rgb(197, 114, 6);
+    width: 80px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.p-container {
+    color: gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+    width: 310px;
+    text-align: left;
+}
+
+
+
+.local-container-img {
+    margin: 25px auto;
+    transition: 1s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 640px;
+}
+
+.style {
+    background-color: #202020;
+}
+
+
+.img1 {
+    display: inline-flex;
+    float: left;
+    background: url("lotus-1205631_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.img2 {
+    display: inline-flex;
+    background: url("181624-20230.png.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 255px;
+    transition: 1s;
+}
+
+.img3 {
+    display: inline;
+    float: right;
+    background: url("clouds-natural-background_7312571_614.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.img4 {
+    display: inline-flex;
+    float: left;
+    background: url("pexels-kaique-rocha-775201.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 255px;
+    transition: 1s;
+    margin-top: -55px;
+}
+
+.img5 {
+    display: inline-flex;
+    background: url("flower-100263_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.img6 {
+    display: inline-flex;
+    float: right;
+    background: url("pexels-raphael-brasileiro-2179204.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 255px;
+    transition: 1s;
+    margin-top: -55px;
+}
+
+/* OUTROS DUPLOS */
+
+
+
+.img11 {
+    display: inline-flex;
+    float: left;
+    background: url("pexels-maksim-romashkin-7108218.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 200px;
+    height: 255px;
+    transition: 1s;
+}
+
+.img22 {
+    display: inline-flex;
+    background: url("pexels-teona-swift-6913576.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.img33 {
+    display: inline;
+    float: right;
+    background: url("pexels-irina-iriser-1590549.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 255px;
+    transition: 1s;
+}
+
+.img44 {
+    display: inline-flex;
+    float: left;
+    background: url("pexels-victor-freitas-600114.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.img55 {
+    display: inline-flex;
+    background: url("pexels-satria-bagaskara-1336924.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 255px;
+    margin-top: -55px;
+    transition: 1s;
+}
+
+.img66 {
+    display: inline-flex;
+    float: right;
+    background: url("pexels-arkhod-9544524.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+
+
+
+
+@media screen and (max-width: 738px) {
+    div.container-menu {
+        background-color: white;
+    }
+    body {
+        background-color: rgb(255, 255, 255);
+        transition: 1s;
+        color: black;
+    }
+
+    button.btn-container {
+        color: black;
+        border: 2px solid gray;
+    }
+
+    div.local-container-img {
+        margin-top: 25px;
+        padding-left: 60px;
+        padding-right: 63px;
+        display:flex;
+        width: 100%;
+        transition: 1s;
+    }
+
+    div.style {
+        background-color: #deeff5;
+        padding-top: 20px;
+    } 
+    
+    
+    div.img1 {
+        display: inline-flex;
+        float: left;
+        background: url("lotus-1205631_960_720.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        width: 200px;
+        height: 200px;
+        transition: 1s;
+    }
+    
+    div.img2 {
+        display: inline-flex;
+        background: url("181624-20230.png.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 255px;
+        transition: 1s;
+    }
+    
+    div.img3 {
+        display: inline;
+        float: right;
+        background: url("clouds-natural-background_7312571_614.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        width: 200px;
+        height: 200px;
+        transition: 1s;
+        margin-left: 5px;
+    }
+    
+    div.img4 {
+        display: inline-flex;
+        float: left;
+        background: url("pexels-kaique-rocha-775201.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 200px;
+        height: 255px;
+        margin-right: 5px;
+        transition: 1s;
+        margin-top: 0px;
+    }
+    
+    div.img5 {
+        display: inline-flex;
+        background: url("flower-100263_960_720.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 200px;
+        height: 200px;
+        margin-right: 5px;
+        transition: 1s;
+    }
+    
+    div.img6 {
+        display: inline-flex;
+        float: right;
+        background: url("pexels-raphael-brasileiro-2179204.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 200px;
+        height: 255px;
+        transition: 1s;
+        margin-top: 0px;
+    }
+
+
+
+
+
+    /* OUTROS MAIS */
+
+    div.img11 {
+        display: inline-flex;
+        float: left;
+        background: url("pexels-maksim-romashkin-7108218.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        width: 200px;
+        height: 255px;
+        transition: 1s;
+    }
+    
+    div.img22 {
+        display: inline-flex;
+        background: url("pexels-teona-swift-6913576.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px;
+        transition: 1s;
+    }
+    
+    div.img33 {
+        display: inline;
+        float: right;
+        background: url("pexels-irina-iriser-1590549.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        width: 200px;
+        height: 255px;
+        transition: 1s;
+        margin-left: 5px;
+    }
+    
+    div.img44 {
+        display: inline-flex;
+        float: left;
+        background: url("pexels-victor-freitas-600114.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 200px;
+        height: 200px;
+        margin-right: 5px;
+        transition: 1s;
+        margin-top: 0px;
+    }
+    
+    div.img55 {
+        display: inline-flex;
+        background: url("pexels-satria-bagaskara-1336924.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 200px;
+        height: 255px;
+        margin-top: 0px;
+        margin-right: 5px;
+        transition: 1s;
+    }
+    
+    div.img66 {
+        display: inline-flex;
+        float: right;
+        background: url("pexels-arkhod-9544524.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 200px;
+        height: 200px;
+        transition: 1s;
+        margin-top: 0px;
+    }
+}
